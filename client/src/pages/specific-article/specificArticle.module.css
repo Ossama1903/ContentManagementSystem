@@ -1,0 +1,30 @@
+.specificArticlePage {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.widthFull {
+  width: 100%;
+}
+
+.innerContainer {
+  width: min(700px, 90%);
+}
+
+.title {
+  font-size: 32px;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.content {
+  border: none;
+  background-color: transparent;
+  height: 200px;
+  resize: none;
+  padding: 10px;
+}
